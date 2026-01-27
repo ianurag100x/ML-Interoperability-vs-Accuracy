@@ -3,7 +3,7 @@ import pandas as pd
 # -------------------------------
 # Load dataset
 # -------------------------------
-df = pd.read_csv("./Heart_disease_cleveland_new.csv")
+df = pd.read_csv("./dataset/Heart_disease_cleveland_new.csv")
 
 # -------------------------------
 # Basic inspection
@@ -35,6 +35,6 @@ print(y.value_counts(normalize=True))
 # -------------------------------
 # Save clean reference dataset
 # -------------------------------
-df.to_csv("./heart_clean.csv", index=False)
+df.to_csv("./dataset/heart_clean.csv", index=False)
 
 print("\nClean dataset saved as heart_clean.csv")
