@@ -1,3 +1,5 @@
+#dataset from: https://www.kaggle.com/datasets/ritwikb3/heart-disease-cleveland/data
+
 import pandas as pd
 
 # -------------------------------
@@ -35,6 +37,6 @@ print(y.value_counts(normalize=True))
 # -------------------------------
 # Save clean reference dataset
 # -------------------------------
-df.to_csv("./dataset/heart_clean.csv", index=False)
+#df.to_csv("./dataset/heart_clean.csv", index=False)
 
 print("\nClean dataset saved as heart_clean.csv")
